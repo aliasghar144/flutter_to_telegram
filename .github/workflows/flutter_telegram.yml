@@ -1,9 +1,9 @@
 name: Build Flutter APK and Upload to Telegram
-
 on:
   push:
     branches:
       - main  # اینجا اسم هر برنچ رو که میخواید بنویسید.
+      - master
 
 jobs:
   build:
